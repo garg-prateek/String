@@ -6,6 +6,8 @@ public class Test {
 		Product product = new Product(1, "Iphone");
 		product.setName("Iphone");
 		product.id= 2;
+		
+		// if we do by getter or by simple product.id, whats the use. and product.id overwrites the setter method.
 
 		System.out.println(product.getId());
 
